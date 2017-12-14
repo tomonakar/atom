@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117115-4974-gntbkh.l1u8k0rudi"
+    ]
+  ],
+  "_from": "../d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+  "_id": "vim-mode-plus-ex-mode@0.10.2",
+  "_inCache": true,
+  "_location": "/vim-mode-plus-ex-mode",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+  "_shasum": "7499b983c4bc5120f611e2411e4b4e7123215774",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4974-12qj5m6.vjkqaxajor/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117115-4974-gntbkh.l1u8k0rudi",
+  "activationCommands": {
+    "atom-text-editor": [
+      "vim-mode-plus-ex-mode:open",
+      "vim-mode-plus-ex-mode:toggle-setting"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/t9md/atom-vim-mode-plus-ex-mode/issues"
+  },
+  "consumedServices": {
+    "vim-mode-plus": {
+      "versions": {
+        "^0.1.0": "consumeVim"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "fuzzaldrin": "^2.1.0",
+    "underscore-plus": "^1.6.6"
+  },
+  "description": "Use original ex-mode instead of this package",
+  "devDependencies": {},
+  "engines": {
+    "atom": "^1.19.0"
+  },
+  "homepage": "https://github.com/t9md/atom-vim-mode-plus-ex-mode#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "vim-mode-plus-ex-mode",
+  "optionalDependencies": {},
+  "readme": "# vim-mode-plus-ex-mode\n\n- I originally released this package for quick workaround of lack of ex-mode support.\n- But now [ex-mode](https://atom.io/packages/ex-mode) works with vim-mode-plus.\n- If you want better ex-mode, don't use this package, use [ex-mode](https://atom.io/packages/ex-mode) instead.\n\nExperimental ex-mode support for vim-mode-plus\n\n## How to use?\n\nDefault keymaps are provided from v0.8.0.\nIn `normal-mode`, following keymaps are available.\n\n- `:`: `vim-mode-plus-ex-mode:open`: open ex-mode then can use following operations\n  - `11`: Move to line 11.\n  - `+11`, `-11`: Move to relative line.\n  - `50%`: Move to 50% of buffer..\n  - `15:10`: Move to line 15, column 10\n  - `!`: Toggle boolean config parameter.\n  - `w`, `wq`, `split`, `vsplit` etc.\n  - `nohlsearch`: to clear `highlight-search`.\n\n- `!`: `vim-mode-plus-ex-mode:toggle-setting`: toggle boolean setting-value.\n  - Choose setting parameter to toggle boolean value.\n  - Shorthand of `:` then input `!`\n\n## NOTE for heavy ex-mode user\n\nI'm not motivated for this package.   \nMy thought for providing ex-mode(`:` command) in Atom is [here #52](https://github.com/t9md/atom-vim-mode-plus/issues/52).  \nPlease understand this package as reference, example, prototype implementation.  \nDon't ask me to improve this package into **true** ex-mode emulation.  \n\nInstead, you can learn\n\n- [Atom's way](https://flight-manual.atom.io/)\n- [vim-mode-plus's way](https://github.com/t9md/atom-vim-mode-plus/wiki)\n\nFor example, there are quicker and effective ways than doing `s/abc/def/g`.  \nBy using Atom's multiple-cursors, and also vim-mod-plus's `occurrence` feature(unique enhancement).  \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t9md/atom-vim-mode-plus-ex-mode.git"
+  },
+  "version": "0.10.2"
+}

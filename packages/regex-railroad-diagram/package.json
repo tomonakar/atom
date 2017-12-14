@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117917-52720-961gci.owihnqm2t9"
+    ]
+  ],
+  "_from": "../d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+  "_id": "regex-railroad-diagram@0.19.4",
+  "_inCache": true,
+  "_location": "/regex-railroad-diagram",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+  "_shasum": "7ad86ed1844472eac926a9f45ce376ef5ef4e231",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-52720-jmtssl.aocxtuik9/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117917-52720-961gci.owihnqm2t9",
+  "bugs": {
+    "url": "https://github.com/klorenz/atom-regex-railroad-diagrams/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "railroad-diagrams": "git+https://github.com/klorenz/railroad-diagrams.git",
+    "regexp": "git+https://github.com/klorenz/regexp.git#v1.4.0",
+    "semver": "^5.3.0",
+    "underscore-plus": "^1.6.6"
+  },
+  "description": "Display railroad diagram of regex under cursor.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">1.13.0"
+  },
+  "homepage": "https://github.com/klorenz/atom-regex-railroad-diagrams#readme",
+  "license": "MIT",
+  "main": "./lib/regex-railroad-diagram",
+  "name": "regex-railroad-diagram",
+  "optionalDependencies": {},
+  "readme": "# regex-railroad-diagram package\n\nA regular expression railroad diagram view for regular expression\nunder cursor.\n\nAn (old) Screenshot:\n\n![regex-railraod-diagram in action](https://raw.githubusercontent.com/klorenz/atom-regex-railroad-diagrams/master/regex-railroad-diagrams.png)\n\nIt also shows you a parsing error message, if your regex is not syntactically\ncorrect.\n\nRegexes parsed are not language specific, so some language specific features may\nnot parsed or displayed correctly.\n\n## Usage\n\n- if the cursor is on some text, which is marked by language as a regex, the\n  railroad diagram automatically opens.  It changes, while you change the text.\n\n- if you have some text selected or your cursor is somewhere else (where no\n  regex is recognized), you can hit **ctrl-r ctrl-r** to open the railroad\n  diagram view.  You then can edit the regex and hit **enter** to insert it at your cursor position or replace current selection.  Hit **esc** to cancel the view\n\n## Contributors\n\nMany thanks to @mikesprague, who maintains this package, and to other contributers:\n\n- @hayes\n- @imperez\n- @ypresto\n- @goddamnhippie\n- @jkroso\n- @lucas-clemente\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klorenz/atom-regex-railroad-diagrams.git"
+  },
+  "version": "0.19.4"
+}

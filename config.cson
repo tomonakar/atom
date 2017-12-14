@@ -1,0 +1,26 @@
+"*":
+  "atom-clock":
+    showClockIcon: true
+    showTooltip: true
+  "autohide-tree-view":
+    minWidth: 3
+  core:
+    telemetryConsent: "limited"
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "0b1b5497-e8b6-499b-a446-a9cf76ff0448"
+  "linter-ui-default":
+    panelHeight: 98
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "tree-view": {}
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117114-39548-dqc7pb.spwnah5mi"
+    ]
+  ],
+  "_from": "../d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+  "_id": "git-log@0.4.1",
+  "_inCache": true,
+  "_location": "/git-log",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+  "_shasum": "e5aa97f4f657ad6f90793bba1d73ba2c428ef920",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117114-39548-cae7bd.263vrt3xr/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117114-39548-dqc7pb.spwnah5mi",
+  "bugs": {
+    "url": "https://github.com/nikhilkalige/git-log/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.4"
+  },
+  "description": "This package graphs your git commits",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nikhilkalige/git-log#readme",
+  "license": "MIT",
+  "main": "./lib/git-log.js",
+  "name": "git-log",
+  "optionalDependencies": {},
+  "readme": "# Git Log Package\n\nGit-log is a package for [Atom][atom] that creates a graph of your git commits and shows commit related information for you on the editor.\n\n![](https://raw.githubusercontent.com/NikhilKalige/git-log/master/resources/git-log.gif)\n\n## Usage\n\nOpen the command palette with `Cmd-Shift-P` (MacOS) or `Ctrl-Shift-P` (Windows or Linux)\n\n>- `Git Log: Show`\n\n## Installing\n\nUse the Atom package manager, which can be found in the Settings view or\nrun `apm install git-log` from the command line.\n\n## Feature requests & bug reports\n\nThe main development branch is `develop` and the stable 'production' branch is `master`. Please remember to base your branch from `develop` and issue the pull request back to that branch.\n\n### Note\nThe inspiration for this package is SourceTree App. \n\n[atom]: http://atom.io/\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilkalige/git-log.git"
+  },
+  "version": "0.4.1"
+}

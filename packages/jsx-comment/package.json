@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117925-19083-14shvkk.r2dqoj38fr"
+    ]
+  ],
+  "_from": "../d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+  "_id": "jsx-comment@0.2.0",
+  "_inCache": true,
+  "_location": "/jsx-comment",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+  "_shasum": "4936520bff2f3f7d9c500c8285c4e0e531a967ef",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117925-19083-1vk3oct.nufyt7f1or/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117925-19083-14shvkk.r2dqoj38fr",
+  "activationCommands": {
+    "atom-workspace": "jsx-comment:toggleComment"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalsaurus/jsx-comment/issues"
+  },
+  "dependencies": {},
+  "description": "JSX style comments and block comments",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/digitalsaurus/jsx-comment#readme",
+  "keywords": [
+    "jsx",
+    "comment",
+    "block comment",
+    "React"
+  ],
+  "license": "MIT",
+  "main": "./lib/jsx-comment",
+  "name": "jsx-comment",
+  "optionalDependencies": {},
+  "readme": "# jsx-comment\n\nA simple package for Atom that enables a keyboard shortcut for JSX comments.\n\n## Usage\n>- `Ctrl-Alt-/` on Windows + Linux\n>- `Cmd-Alt-/` on MacOS\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalsaurus/jsx-comment.git"
+  },
+  "version": "0.2.0"
+}

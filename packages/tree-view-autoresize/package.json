@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117117-22153-1tgdz2v.jdkmv1v2t9"
+    ]
+  ],
+  "_from": "../d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+  "_id": "tree-view-autoresize@2.3.0",
+  "_inCache": true,
+  "_location": "/tree-view-autoresize",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+  "_shasum": "9d05c123d04baaac76ef4542322fe32e7212812c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117117-22153-4p5q2y.l6m5xqd7vi/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117117-22153-1tgdz2v.jdkmv1v2t9",
+  "bugs": {
+    "url": "https://github.com/lexcast/tree-view-autoresize/issues"
+  },
+  "dependencies": {
+    "atom-utils": "^0.9.2",
+    "scrollbar-width": "^3.1.1"
+  },
+  "description": "Autoresize the tree view when open/close folders",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lexcast/tree-view-autoresize#readme",
+  "keywords": [
+    "tree-view",
+    "autoresize"
+  ],
+  "license": "MIT",
+  "main": "./lib/tree-view-autoresize",
+  "name": "tree-view-autoresize",
+  "optionalDependencies": {},
+  "readme": "# Tree View Autoresize\n\n[![apm install tree-view-autoresize](https://apm-badges.herokuapp.com/apm/tree-view-autoresize.svg)](https://atom.io/packages/tree-view-autoresize)\n\nAutoresize the tree view when open/close folders.\n\n![Tree View Autoresize](https://cloud.githubusercontent.com/assets/10590799/14082869/a6132a20-f4cf-11e5-8640-e067730f7098.gif)\n\n~~It also supports [Nuclide](http://nuclide.io) file tree~~\n\n## Install\nFrom Atom go to Settings ➔ Install or with the command `Settings View:Install Packages and Themes` and then search for `tree-view-autoresize`\n\nOr with apm:\n```bash\napm install tree-view-autoresize\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexcast/tree-view-autoresize.git"
+  },
+  "version": "2.3.0"
+}

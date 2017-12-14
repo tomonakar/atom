@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-/": "jsx-comment:toggleComment",
+    "cmd-alt-/": "jsx-comment:toggleComment"
+  }
+}

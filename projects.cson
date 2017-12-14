@@ -1,0 +1,21 @@
+[
+  {
+    title: "React Redux Practice"
+    paths: [
+      "/Users/staff001/practice/react_redux_practice"
+    ]
+  }
+  {
+    title: "Menus Server"
+    paths: [
+      "/Users/staff001/dev/menus-server"
+      "/Users/staff001/practice/line-login-starter"
+    ]
+  }
+  {
+    title: "menus-fron"
+    paths: [
+      "/Users/staff001/dev/menus-front"
+    ]
+  }
+]

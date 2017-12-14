@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117115-4942-1rcfdf6.yxohl4n29"
+    ]
+  ],
+  "_from": "../d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+  "_id": "markdown-preview@0.159.18",
+  "_inCache": true,
+  "_location": "/markdown-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+  "_shasum": "0551cc103f56e2253d83a4e1503116df538b8b81",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117115-4942-kl3q18.6gt6pf1or/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117115-4942-1rcfdf6.yxohl4n29",
+  "bugs": {
+    "url": "https://github.com/atom/markdown-preview/issues"
+  },
+  "configSchema": {
+    "breakOnSingleNewline": {
+      "type": "boolean",
+      "default": false,
+      "description": "In Markdown, a single newline character doesn't cause a line break in the generated HTML. In GitHub Flavored Markdown, that is not true. Enable this config option to insert line breaks in rendered HTML for single newlines in Markdown source."
+    },
+    "liveUpdate": {
+      "type": "boolean",
+      "default": true,
+      "description": "Re-render the preview as the contents of the source changes, without requiring the source buffer to be saved. If disabled, the preview is re-rendered only when the buffer is saved to disk."
+    },
+    "openPreviewInSplitPane": {
+      "type": "boolean",
+      "default": true,
+      "description": "Open the preview in a split pane. If disabled, the preview is opened in a new tab in the same pane."
+    },
+    "allowUnsafeProtocols": {
+      "type": "boolean",
+      "default": false,
+      "description": "Allow HTML attributes to use protocols normally considered unsafe such as `file://` and absolute paths on Windows."
+    },
+    "grammars": {
+      "type": "array",
+      "default": [
+        "source.gfm",
+        "source.litcoffee",
+        "text.html.basic",
+        "text.md",
+        "text.plain",
+        "text.plain.null-grammar"
+      ],
+      "description": "List of scopes for languages for which previewing is enabled. See [this README](https://github.com/atom/spell-check#spell-check-package-) for more information on finding the correct scope for a specific language."
+    },
+    "useGitHubStyle": {
+      "title": "Use GitHub.com style",
+      "type": "boolean",
+      "default": false,
+      "description": "Use the same CSS styles for preview as the ones used on GitHub.com."
+    }
+  },
+  "dependencies": {
+    "dompurify": "^1.0.2",
+    "fs-plus": "^3.0.0",
+    "highlights": "^3.1.1",
+    "roaster": "^1.2.1",
+    "underscore-plus": "^1.0.0"
+  },
+  "description": "Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.",
+  "deserializers": {
+    "MarkdownPreviewView": "createMarkdownPreviewView"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7",
+    "temp": "^0.8.1"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/atom/markdown-preview#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "markdown-preview",
+  "optionalDependencies": {},
+  "readme": "# Markdown Preview package\n[![macOS Build Status](https://travis-ci.org/atom/markdown-preview.svg?branch=master)](https://travis-ci.org/atom/markdown-preview) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/bvh0evhh4v6w9b29/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/markdown-preview/branch/master) [![Dependency Status](https://david-dm.org/atom/markdown-preview.svg)](https://david-dm.org/atom/markdown-preview)\n\nShow the rendered HTML markdown to the right of the current editor using <kbd>ctrl-shift-m</kbd>.\n\nIt is currently enabled for `.markdown`, `.md`, `.mdown`, `.mkd`, `.mkdown`, `.ron`, and `.txt` files.\n\n![markdown-preview](https://cloud.githubusercontent.com/assets/378023/10013086/24cad23e-6149-11e5-90e6-663009210218.png)\n\n## Customize\n\nBy default Markdown Preview uses the colors of the active syntax theme. Enable `Use GitHub.com style` in the __package settings__ to make it look closer to how markdown files get rendered on github.com.\n\n![markdown-preview GitHub style](https://cloud.githubusercontent.com/assets/378023/10013087/24ccc7ec-6149-11e5-97ea-53a842a715ea.png)\n\nTo customize even further, the styling can be overridden in your `styles.less` file. For example:\n\n```css\n.markdown-preview.markdown-preview {\n  background-color: #444;\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/markdown-preview.git"
+  },
+  "version": "0.159.18"
+}

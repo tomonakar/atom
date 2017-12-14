@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+        "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117917-46246-ys7p43.snhu5zh0k9"
+    ]
+  ],
+  "_from": "../d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+  "_id": "show-ideographic-space@1.0.2",
+  "_inCache": true,
+  "_location": "/show-ideographic-space",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+    "spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+  "_shasum": "8712794ff0e1b271e7b346f5e3d590d3fe2e37f5",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/d-117917-46246-1876qh1.8xt777rpb9/package.tgz",
+  "_where": "/private/var/folders/yy/8gy4clgs1p79zzq5ldkkzdz80000gn/T/apm-install-dir-117917-46246-ys7p43.snhu5zh0k9",
+  "bugs": {
+    "url": "https://github.com/raccy/show-ideographic-space/issues"
+  },
+  "coffeelintConfig": {
+    "arrow_spacing": {
+      "name": "arrow_spacing",
+      "level": "error"
+    },
+    "ensure_comprehensions": {
+      "name": "ensure_comprehensions",
+      "level": "error"
+    },
+    "max_line_length": {
+      "name": "max_line_length",
+      "value": 120,
+      "level": "error",
+      "limitComments": true
+    },
+    "indentation": {
+      "name": "indentation",
+      "value": 2,
+      "level": "error"
+    },
+    "no_empty_param_list": {
+      "name": "no_empty_param_list",
+      "level": "error"
+    },
+    "cyclomatic_complexity": {
+      "name": "cyclomatic_complexity",
+      "value": 22,
+      "level": "error"
+    },
+    "no_unnecessary_fat_arrows": {
+      "name": "no_unnecessary_fat_arrows",
+      "level": "error"
+    },
+    "space_operators": {
+      "name": "space_operators",
+      "level": "error"
+    },
+    "spacing_after_comma": {
+      "name": "spacing_after_comma",
+      "level": "error"
+    }
+  },
+  "dependencies": {},
+  "description": "Show ideographic space (known as 全角スペース)",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/raccy/show-ideographic-space#readme",
+  "license": "MIT",
+  "main": "./lib/show-ideographic-space",
+  "name": "show-ideographic-space",
+  "optionalDependencies": {},
+  "readme": "# Show Ideographic Space Package\nThis package show ideographic spaces (\"　\", U+3000, 和字間隔, known as FULLWIDTH SPACE).\n\n## Change character, colors, etc\nNo config, only your stylesheet. By opening the \"Open Your Stylesheet\", you can change the content, the text color, and the background color as below. (see also `~/.atom/packages/show-ideographic-space/styles/show-ideographic-space.less`)\n\n```styles.less\natom-text-editor, atom-text-editor.editor {\n  .highlight.ideographic-space {\n    .region:after {\n      color: #800000;\n      content: '×';\n      background-color: #CCCCCC;\n    }\n  }\n}\n```\n\n# 和字間隔表示パッケージ\n和字間隔(\"　\"、U+3000、IDEOGRAPHIC SPACE、いわゆる全角スペース)を目に見える形で表示します。\n\n## 文字や色の変更\n設定では無くスタイルシートで指定します。フォントの色や背景色を変更したい場合は「Open Your Stylesheet」から個人設定のスタイルシートを開いて、下記のようにカスタマイズすることができます。 (参照 `~/.atom/packages/show-ideographic-space/styles/show-ideographic-space.less`)\n\n```styles.less\natom-text-editor, atom-text-editor.editor {\n  .highlight.ideographic-space {\n    .region:after {\n      color: #800000;\n      content: '×';\n      background-color: #CCCCCC;\n    }\n  }\n}\n```\n\n![A screenshot of show ideographic space package](http://raccy.github.io/images/trap-of-fullwidth-space.jpg)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raccy/show-ideographic-space.git"
+  },
+  "version": "1.0.2"
+}
